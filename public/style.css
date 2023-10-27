@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #202b38;
+    margin: 0;
+    color: #fff;    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;
+}
+
+.brukerInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: #fff solid 1px;
+    width: 100%;
+    padding: 10px
+}
+
+.brukerPfp{
+    border: #fff solid 1px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+table, td, th {
+    border: 2px solid;
+    border-color: #000000;
+}
+
+.BrukerInfoTable{
+    border: #fff solid 1px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+  
+.brukere {
+width: 70%;
+border-collapse: collapse;
+}
+
+.bruker-row:hover{
+    background-color: #4765eb;
+    color: #ffffff;
+    cursor: pointer;
+}
